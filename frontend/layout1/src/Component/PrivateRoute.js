@@ -6,7 +6,7 @@ const PrivateRoute = ({ isAuthenticated, children }) => {
     return <Navigate to="/login" replace />;
   }
 
-  return children;  // Render the child components (Dashboard, etc.)
+  return children;  
 };
 
 export default PrivateRoute;
